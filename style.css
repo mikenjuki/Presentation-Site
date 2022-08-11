@@ -86,8 +86,8 @@ body {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--primary-200);
-  color: var(--accent-700);
+  background: var(--neutral-900);
+  color: var(--primary-300);
   text-decoration: none;
   margin-top: 1rem;
   font-size: 1.1rem;
@@ -96,16 +96,16 @@ body {
 }
 
 .btn:hover,
-.btn-dark {
-  background: var(--accent-600);
-  color: var(--primary-200);
+.btn-light {
+  background: var(--primary-400);
+  color: var(--accent-800);
 }
 
 .btn > i {
   margin-left: 6px;
 }
 
-.btn-dark:hover {
-  background: var(--primary-200);
-  color: var(--accent-700);
+.btn-light:hover {
+  background: var(--neutral-900);
+  color: var(--primary-300);
 }
