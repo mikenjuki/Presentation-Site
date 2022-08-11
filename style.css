@@ -1,0 +1,46 @@
+:root {
+  /* Primary: Tree Sap */
+  --primary-100: #fffdf2;
+  --primary-200: #feedb9;
+  --primary-300: #f8d37d;
+  --primary-400: #e8ad42;
+  --primary-500: #c97b0c;
+  --primary-600: #a15604;
+  --primary-700: #783801;
+  --primary-800: #4f2000;
+  --primary-900: #260d00;
+
+  /* Accent: Blue Dacnis */
+  --accent-100: #f2fbff;
+  --accent-200: #c5f0ff;
+  --accent-300: #98e9fd;
+  --accent-400: #69e3f7;
+  --accent-500: #3bdeed;
+  --accent-600: #19b7bb;
+  --accent-700: #0a8a85;
+  --accent-800: #055850;
+  --accent-900: #022621;
+
+  /* Neutral */
+  --neutral-100: #fcfcfa;
+  --neutral-200: #edece7;
+  --neutral-300: #dedbd5;
+  --neutral-400: #cfcbc3;
+  --neutral-500: #bfbab2;
+  --neutral-600: #99948d;
+  --neutral-700: #736e69;
+  --neutral-800: #4d4945;
+  --neutral-900: #262422;
+
+  --page-1-color: linear-gradient(#a15604, #c97b0c);
+  --page-2-color: #e8ad42;
+  --page-3-color: #f8d37d;
+  --page-4-color: #c5f0ff;
+  --animate-speed: 1s;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
