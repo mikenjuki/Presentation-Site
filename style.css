@@ -36,7 +36,7 @@
   --page-2-color: #108761;
   --page-3-color: #085739;
   --page-4-color: #108761;
-  --animate-speed: 1s;
+  --animate-speed: 1.8s;
 }
 
 body {
@@ -104,4 +104,29 @@ body {
 .btn-light:hover {
   background: var(--neutral-900);
   color: var(--primary-300);
+}
+
+/* Animations */
+#page-1 h1 {
+  transform: translateY(-1300px);
+  animation: heading var(--animate-speed) forwards ease-in;
+  opacity: 0;
+}
+
+#page-1 p {
+  opacity: 0;
+  animation: text var(--animate-speed) forwards ease-in 2s;
+}
+
+@keyframes heading {
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text {
+  to {
+    opacity: 1;
+  }
 }
